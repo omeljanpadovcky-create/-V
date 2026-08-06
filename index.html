@@ -1,5 +1,4 @@
-
-html_fixed = '''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -405,6 +404,7 @@ html_fixed = '''<!DOCTYPE html>
   }
 </style>
 <base target="_blank">
+<base target="_blank">
 </head>
 <body>
 
@@ -487,8 +487,8 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 1 -->
       <div class="work-card">
         <div class="work-images" id="wf1">
-          <img src="mecha-frog.jpg" alt="Mecha Frog" class="main-img">
-          <img src="mecha-frog-wf.jpg" alt="Mecha Frog Wireframe" class="wf-img">
+          <img src="images/mecha-frog.jpg" alt="Mecha Frog" class="main-img">
+          <img src="images/mecha-frog-wf.jpg" alt="Mecha Frog Wireframe" class="wf-img">
           <button class="wf-toggle" onclick="toggleWf('wf1', this)">Show Wireframe</button>
         </div>
         <div class="work-info">
@@ -501,8 +501,8 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 2 -->
       <div class="work-card">
         <div class="work-images" id="wf2">
-          <img src="clockwork-bot.jpg" alt="Clockwork Bot" class="main-img">
-          <img src="clockwork-bot-wf.jpg" alt="Clockwork Bot Wireframe" class="wf-img">
+          <img src="images/clockwork-bot.jpg" alt="Clockwork Bot" class="main-img">
+          <img src="images/clockwork-bot-wf.jpg" alt="Clockwork Bot Wireframe" class="wf-img">
           <button class="wf-toggle" onclick="toggleWf('wf2', this)">Show Wireframe</button>
         </div>
         <div class="work-info">
@@ -515,7 +515,7 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 3 — без wireframe -->
       <div class="work-card">
         <div class="work-images">
-          <img src="mecha-penguin.jpg" alt="Mecha Penguin" class="main-img">
+          <img src="images/mecha-penguin.jpg" alt="Mecha Penguin" class="main-img">
         </div>
         <div class="work-info">
           <h3>Mecha Penguin</h3>
@@ -527,8 +527,8 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 4 -->
       <div class="work-card">
         <div class="work-images" id="wf4">
-          <img src="desert-ranger.jpg" alt="Desert Ranger" class="main-img">
-          <img src="desert-ranger-wf.jpg" alt="Desert Ranger Wireframe" class="wf-img">
+          <img src="images/desert-ranger.jpg" alt="Desert Ranger" class="main-img">
+          <img src="images/desert-ranger-wf.jpg" alt="Desert Ranger Wireframe" class="wf-img">
           <button class="wf-toggle" onclick="toggleWf('wf4', this)">Show Wireframe</button>
         </div>
         <div class="work-info">
@@ -541,8 +541,8 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 5 -->
       <div class="work-card">
         <div class="work-images" id="wf5">
-          <img src="mecha-owl.jpg" alt="Mecha Owl" class="main-img">
-          <img src="mecha-owl-wf.jpg" alt="Mecha Owl Wireframe" class="wf-img">
+          <img src="images/mecha-owl.jpg" alt="Mecha Owl" class="main-img">
+          <img src="images/mecha-owl-wf.jpg" alt="Mecha Owl Wireframe" class="wf-img">
           <button class="wf-toggle" onclick="toggleWf('wf5', this)">Show Wireframe</button>
         </div>
         <div class="work-info">
@@ -555,7 +555,7 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 6 — без wireframe -->
       <div class="work-card">
         <div class="work-images">
-          <img src="tactical-mech.jpg" alt="Tactical Mech" class="main-img">
+          <img src="images/tactical-mech.jpg" alt="Tactical Mech" class="main-img">
         </div>
         <div class="work-info">
           <h3>Tactical Mech</h3>
@@ -567,8 +567,8 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 7 -->
       <div class="work-card">
         <div class="work-images" id="wf7">
-          <img src="demon-girl.jpg" alt="Demon Girl Lina" class="main-img">
-          <img src="demon-girl-wf.jpg" alt="Demon Girl Wireframe" class="wf-img">
+          <img src="images/demon-girl.jpg" alt="Demon Girl Lina" class="main-img">
+          <img src="images/demon-girl-wf.jpg" alt="Demon Girl Wireframe" class="wf-img">
           <button class="wf-toggle" onclick="toggleWf('wf7', this)">Show Wireframe</button>
         </div>
         <div class="work-info">
@@ -581,8 +581,8 @@ html_fixed = '''<!DOCTYPE html>
       <!-- Work 8 -->
       <div class="work-card">
         <div class="work-images" id="wf8">
-          <img src="classic-skeleton.jpg" alt="Classic Skeleton" class="main-img">
-          <img src="classic-skeleton-wf.jpg" alt="Classic Skeleton Wireframe" class="wf-img">
+          <img src="images/classic-skeleton.jpg" alt="Classic Skeleton" class="main-img">
+          <img src="images/classic-skeleton-wf.jpg" alt="Classic Skeleton Wireframe" class="wf-img">
           <button class="wf-toggle" onclick="toggleWf('wf8', this)">Show Wireframe</button>
         </div>
         <div class="work-info">
@@ -681,9 +681,4 @@ html_fixed = '''<!DOCTYPE html>
 </script>
 
 </body>
-</html>'''
-
-with open('/mnt/agents/output/index_final.html', 'w', encoding='utf-8') as f:
-    f.write(html_fixed)
-
-print("Готово. Файл збережено.")
+</html>
